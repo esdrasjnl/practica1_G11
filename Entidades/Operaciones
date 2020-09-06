@@ -34,4 +34,8 @@ for (int i=0; i<=n ; i++){
 //codigo sumatoria_sucesiva de x a n
 }
 
+public void ilustrarfuncion(){
+	//codigo;
+}
+
 }
