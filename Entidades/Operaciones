@@ -15,9 +15,9 @@ public void fibonacci(int num){
 		System.out.println("El número deve ser menor a 100");
 	}
 }
-public void numeroPrimo()
+public void numeroPrimo(int Numero1,int Numero2,int Numero3)
 {
-    //codigo
+    //suma = Numero1+Numero2+Numero3
 }
 public void areaTriangulo(){
      //codigo
