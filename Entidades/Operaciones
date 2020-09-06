@@ -7,8 +7,13 @@ public void numeroPar(){
 		System.out.println("El número no es par");
 	}
 }
-public void fibonacci(){
-    //return fibonacci;
+public void fibonacci(int num){
+    
+	if(num<100){
+		//codigo;
+	}else{
+		System.out.println("El número deve ser menor a 100");
+	}
 }
 public void numeroPrimo()
 {
