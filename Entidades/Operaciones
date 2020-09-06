@@ -51,3 +51,9 @@ public void operacionesLogicas(){
 return resultado;
 
 }
+
+public void suma(int a, int b){
+   int resultado;
+   resultado=a+b;
+   System.out.println("resultado: "+resultado);
+}
