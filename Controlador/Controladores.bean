@@ -1,0 +1,7 @@
+public class registro(){
+
+@PostConstruct
+Void cargar(){}
+@PreDestroy
+Void eliminar(){}
+}
