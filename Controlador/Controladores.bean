@@ -1,18 +1,6 @@
 public class registro(){
-
 @PostConstruct
 Void cargar(){}
 @PreDestroy
 Void eliminar(){}
-
-public void RegistroListener()
-{
-    try{
-        Procesos.Registro(this.user, this.pass);
-        Util.crearMensaje("Registro Exitoso", SEVERITY_INFO);
-    }catch(Exception e)
-    {
-        Util.crearMensaje("Registro fallido", SEVERITY_ERROR);
-    }
-}
 }
