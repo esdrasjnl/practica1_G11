@@ -1,6 +1,7 @@
 Public class Proceso {
     public Usuario Login(String user, String pass)
     {
+        return usuario;
         
 
         if(user!=null){
