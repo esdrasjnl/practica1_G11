@@ -43,3 +43,7 @@ public void AreaCirculo(int valor)
 {
     //codigo
 }
+
+public void operacionesLogicas(){
+	//codigo
+}
