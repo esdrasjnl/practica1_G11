@@ -27,8 +27,11 @@ public void areaTriangulo(int area){
 		 System.out.println("parametro no indicado anteriomente");
 	 }
 }
-public void sumatoria_sucesiva()
+public void sumatoria_sucesiva(int n , int x )
 {
-//codigo sumatoria_sucesiva 0 a n
+
+for (int i=0; i<=n ; i++){
+//codigo sumatoria_sucesiva de x a n
+}
 
 }
