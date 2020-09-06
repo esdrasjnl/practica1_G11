@@ -1,0 +1,4 @@
+ public class usuario AbstractFacade<Persona.class>{
+    public EntityManager em;
+    Object find(Object id);
+}
