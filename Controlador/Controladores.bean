@@ -1,6 +1,27 @@
 public class registro(){
 @PostConstruct
-Void cargar(){}
+Void cargar(){
+
+system.outprintl(" Se registro en el sistema del grupo 11");
+
+}
 @PreDestroy
 Void eliminar(){}
+
+public void RegistroListener()
+{
+    try{
+        if(this.user != null)
+        {
+        Procesos.Registro(this.user, this.pass);
+        Util.crearMensaje("Registro Exitoso", SEVERITY_INFO);
+        }
+        
+
+    }catch(Exception e)
+    {
+        Util.crearMensaje("Registro fallido", SEVERITY_ERROR);
+    }
+}
+
 }
