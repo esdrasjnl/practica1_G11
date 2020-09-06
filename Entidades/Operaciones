@@ -1,5 +1,11 @@
 public void numeroPar(){
 	//Codigo
+	if(true){
+		System.out.println("El número es par");
+	}
+	else {
+		System.out.println("El número no es par");
+	}
 }
 public void fibonacci(){
     //return fibonacci;
