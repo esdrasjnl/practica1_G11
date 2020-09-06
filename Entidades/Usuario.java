@@ -12,6 +12,7 @@ package javaapplication1;
 public class Usuario {
     private String Username;
     private String Password;
+    enum valores[Activo,NoActivo]
 
     public Usuario(){
         this.Password="";
@@ -46,5 +47,8 @@ public class Usuario {
     public void setPassword(String Password) {
         this.Password = Password;
     }
-    
+
+    Usuario objUsuario = new Usuario();
+    objUsuario.setUsername('NoActivo');
+        
 }
