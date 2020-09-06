@@ -4,5 +4,6 @@ Public class Proceso {
         Usuario usuario = UsuarioImpl.find(user);
         DoLogger.log().info("Usuario recuperado");
         return usuario;
+        registro();
     }
 }
