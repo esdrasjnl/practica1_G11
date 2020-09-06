@@ -1,3 +1,6 @@
 public void numeroPar(){
 	//Codigo
 }
+public void fibonacci(){
+    //return fibonacci;
+}
