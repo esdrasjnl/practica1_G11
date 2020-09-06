@@ -1,0 +1,6 @@
+public int polinomios(int constante1, int constante2, char termino1, char termino2){
+
+//operacion con polinomios
+return resultado;
+
+}
