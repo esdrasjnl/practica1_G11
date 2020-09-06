@@ -1,18 +1,37 @@
 public void numeroPar(){
 	//Codigo
+	if(true){
+		System.out.println("El número es par");
+	}
+	else {
+		System.out.println("El número no es par");
+	}
 }
-public void fibonacci(){
-    //return fibonacci;
+public void fibonacci(int num){
+    
+	if(num<100){
+		//codigo;
+	}else{
+		System.out.println("El número deve ser menor a 100");
+	}
 }
-public void numeroPrimo()
+public void numeroPrimo(int Numero1,int Numero2,int Numero3)
 {
-    //codigo
+    //suma = Numero1+Numero2+Numero3
 }
-public void areaTriangulo(){
+public void areaTriangulo(int area){
      //codigo
+	 if(area!=0){
+		 area=2*5;
+	 }else{
+		 System.out.println("parametro no indicado anteriomente");
+	 }
 }
-public void sumatoria_sucesiva()
+public void sumatoria_sucesiva(int n , int x )
 {
-//codigo sumatoria_sucesiva 0 a n
+
+for (int i=0; i<=n ; i++){
+//codigo sumatoria_sucesiva de x a n
+}
 
 }
