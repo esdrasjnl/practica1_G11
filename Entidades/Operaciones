@@ -47,3 +47,7 @@ public void AreaCirculo(int valor)
 public void operacionesLogicas(){
 	//codigo
 }
+//operacion con polinomios
+return resultado;
+
+}
