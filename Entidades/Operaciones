@@ -4,3 +4,7 @@ public void numeroPar(){
 public void fibonacci(){
     //return fibonacci;
 }
+public void numeroPrimo()
+{
+    //codigo
+}
