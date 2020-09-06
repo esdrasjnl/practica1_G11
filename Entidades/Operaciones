@@ -11,3 +11,8 @@ public void numeroPrimo()
 public void areaTriangulo(){
      //codigo
 }
+public void sumatoria_sucesiva()
+{
+//codigo sumatoria_sucesiva 0 a n
+
+}
